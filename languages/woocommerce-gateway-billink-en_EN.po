@@ -1,0 +1,218 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Billink\n"
+"POT-Creation-Date: 2014-02-18 14:00+0100\n"
+"PO-Revision-Date: 2014-02-18 14:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: Tussendoor <info@tussendoor.nl>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../src/Billink/Woocommerce/Gateway.php:19
+#: ../src/Billink/Woocommerce/Gateway.php:65
+#: ../src/Billink/Woocommerce/Gateway.php:107
+msgid "Billink"
+msgstr "Billink"
+
+#: ../src/Billink/Woocommerce/Gateway.php:66
+msgid "Billink is an payment platform which allow customers to pay afterwards."
+msgstr ""
+"Billink is an payment platform which allow customers to pay afterwards."
+
+#: ../src/Billink/Woocommerce/Gateway.php:80
+msgid "Gateway Disabled"
+msgstr "Gateway Disabled"
+
+#: ../src/Billink/Woocommerce/Gateway.php:81
+msgid "Billink doesn't support your shops payment method."
+msgstr "Billink doesn't support your shops payment method."
+
+#: ../src/Billink/Woocommerce/Gateway.php:98
+msgid "Enable/Disable"
+msgstr "Enable/Disable"
+
+#: ../src/Billink/Woocommerce/Gateway.php:100
+msgid "Enable Billink"
+msgstr "Enable Billink"
+
+#: ../src/Billink/Woocommerce/Gateway.php:104
+msgid "Title"
+msgstr "Title"
+
+#: ../src/Billink/Woocommerce/Gateway.php:106
+msgid ""
+"The name of this payment method which will be shown to the customer when "
+"making the payment."
+msgstr ""
+"The name of this payment method which will be shown to the customer when "
+"making the payment."
+
+#: ../src/Billink/Woocommerce/Gateway.php:111
+msgid "Description"
+msgstr "Description"
+
+#: ../src/Billink/Woocommerce/Gateway.php:113
+msgid ""
+"The description which will be shown when the custoner selects Billink as "
+"payment method. <code>%costs%</code> will be replaced by extra costs, <code>"
+"%vat%</code> by text or the extra costs incl. or excl. VAT."
+msgstr ""
+"The description which will be shown when the customer selects Billink as "
+"payment method. <code>%costs%</code> will be replaced by extra costs, <code>"
+"%vat%</code> by text or the extra costs incl. or excl. VAT."
+
+#: ../src/Billink/Woocommerce/Gateway.php:114
+msgid "Easily pay afterward with Billink. Extra costs are %costs% %vat%"
+msgstr "Easily pay afterward with Billink. Extra costs are %costs% %vat%"
+
+#: ../src/Billink/Woocommerce/Gateway.php:118
+msgid "Notification when rejected"
+msgstr "Notification when rejected"
+
+#: ../src/Billink/Woocommerce/Gateway.php:120
+msgid "Message which will be shown when Billink doens't accept an customer."
+msgstr "Message which will be shown when Billink doens't accept an customer."
+
+#: ../src/Billink/Woocommerce/Gateway.php:121
+msgid "Sorry, Billink has rejected your payment request."
+msgstr "Sorry, Billink has rejected your payment request."
+
+#: ../src/Billink/Woocommerce/Gateway.php:124
+msgid "Message when succesfully processed."
+msgstr "Message when succesfully processed."
+
+#: ../src/Billink/Woocommerce/Gateway.php:126
+msgid "Message which will be shown on the thank you page of placing an order."
+msgstr "Message which will be shown on the thank you page of placing an order."
+
+#: ../src/Billink/Woocommerce/Gateway.php:127
+msgid " "
+msgstr ""
+
+#: ../src/Billink/Woocommerce/Gateway.php:130
+msgid "Payment costs"
+msgstr "Payment costs"
+
+#: ../src/Billink/Woocommerce/Gateway.php:132
+msgid ""
+"Costs which will be passed to the customer when paying through Billink. "
+"Accepts the format: <code>0:2,00;30:1,50;</code> to set variables.<br>Here "
+"<code>;</code> is the separator character, the number before the colon is "
+"the minimal order amount and the added costs."
+msgstr ""
+"Costs which will be passed to the customer when paying through Billink. "
+"Accepts the format: <code>0:2,00;30:1,50;</code> to set variables.<br>Here "
+"<code>;</code> is the separator character, the number before the colon is "
+"the minimal order amount and the added costs."
+
+#: ../src/Billink/Woocommerce/Gateway.php:146
+msgid "Username"
+msgstr "Username"
+
+#: ../src/Billink/Woocommerce/Gateway.php:148
+msgid "Your username at Billink"
+msgstr "Your username at Billink"
+
+#: ../src/Billink/Woocommerce/Gateway.php:154
+msgid "Billink ID"
+msgstr "Billink ID"
+
+#: ../src/Billink/Woocommerce/Gateway.php:156
+msgid "Your user ID at Billink."
+msgstr "Your user ID at Billink."
+
+#: ../src/Billink/Woocommerce/Gateway.php:162
+msgid "Workflow"
+msgstr "Workflow"
+
+#: ../src/Billink/Woocommerce/Gateway.php:164
+msgid "The Billink workflow which will be used."
+msgstr "The Billink workflow which will be used."
+
+#: ../src/Billink/Woocommerce/Gateway.php:168
+#, fuzzy
+msgid "1: Warranty and validation"
+msgstr "3: Warranty and validation"
+
+#: ../src/Billink/Woocommerce/Gateway.php:169
+#, fuzzy
+msgid "3: No warranty, no validation"
+msgstr "1: No warranty, no validation"
+
+#: ../src/Billink/Woocommerce/Gateway.php:173
+msgid "Gateway Testing"
+msgstr "Gateway Testing"
+
+#: ../src/Billink/Woocommerce/Gateway.php:178
+msgid "Billink testing"
+msgstr "Billink testing"
+
+#: ../src/Billink/Woocommerce/Gateway.php:180
+msgid "Enable the test mode"
+msgstr "Enable the test mode"
+
+#: ../src/Billink/Woocommerce/Gateway.php:184
+msgid "Debug Log"
+msgstr "Debug Log"
+
+#: ../src/Billink/Woocommerce/Gateway.php:186
+msgid "Enable logging"
+msgstr "Enable logging"
+
+#: ../src/Billink/Woocommerce/Gateway.php:188
+#, php-format
+msgid "Log Billink events, inside <code>woocommerce/logs/billink-%s.txt</code>"
+msgstr ""
+"Log Billink events, inside <code>woocommerce/logs/billink-%s.txt</code>"
+
+#: ../src/Billink/Woocommerce/Gateway.php:197
+msgid "Birthdate"
+msgstr "Birthdate"
+
+#: ../src/Billink/Woocommerce/Gateway.php:204
+msgid "Birthdate is required."
+msgstr "Birthdate is required."
+
+#: ../src/Billink/Woocommerce/Gateway.php:207
+msgid "Birthdate must me formatted as dd-mm-yyyy."
+msgstr "Birthdate must me formatted as dd-mm-yyyy."
+
+#: ../src/Billink/Woocommerce/Gateway.php:213
+msgid "I accept the Billink terms"
+msgstr "I accept the Billink terms"
+
+#: ../src/Billink/Woocommerce/Gateway.php:216
+msgid "You must accept the Billink terms."
+msgstr "You must accept the Billink terms."
+
+#: ../src/Billink/Woocommerce/Gateway.php:375
+msgid "Shipment"
+msgstr "Shipment"
+
+#: ../src/Billink/Woocommerce/Gateway.php:385
+msgid "Costs"
+msgstr "Costs"
+
+#: ../src/Billink/Woocommerce/Gateway.php:389
+msgid "Discount"
+msgstr "Discount"
+
+#: ../src/Billink/Woocommerce/Support/Chamber.php:8
+msgid "Chamber of Commerce"
+msgstr "Chamber of Commerce"
+
+#: ../src/Billink/Woocommerce/Support/Chamber.php:22
+msgid ""
+"As a company, you are required to fill in the Chamber of Commerce number"
+msgstr ""
+"As a company, you are required to fill in the Chamber of Commerce number"
+
+#: ../woocommerce-billink.php:25
+msgid "Billink can't function without WooCommerce!"
+msgstr "Billink can't function without WooCommerce!"
