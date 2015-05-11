@@ -52,7 +52,7 @@ class WC_Billink_Fee {
 	protected function calculate_excl( $fee ) {
 		if ( $this->is_taxable() and get_option( 'woocommerce_prices_include_tax' ) == 'yes' ) {
 			$tax = new WC_Tax;
-			$rates = $tax->get_shop_base_rate( $this->tax_class );
+			$rates = $tax->get_shop_base_rate();
 			$taxes = $tax->calc_tax( $fee, $rates, true );
 			$taxAmount = $tax->get_tax_total( $taxes );
 

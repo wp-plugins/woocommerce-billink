@@ -467,7 +467,7 @@ class WC_Billink_Gateway extends WC_Payment_Gateway
 			woocommerce_add_order_item_meta( $item_id, '_line_tax', woocommerce_format_decimal( $tax ) );
 
 			update_post_meta( $order->id, '_order_tax', woocommerce_format_decimal( $order->order_tax + $tax ) );
-			update_post_meta( $order->id, '_order_total', woocommerce_format_decimal( $order->get_order_total( ) + $fee['incl'] ) );
+			update_post_meta( $order->id, '_order_total', woocommerce_format_decimal( $order->get_total() + $fee['incl'] ) );
 		}
 	}
 

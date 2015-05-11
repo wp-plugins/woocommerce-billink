@@ -3,7 +3,7 @@
  * Plugin Name: WooCommerce Billink
  * Plugin URI: http://www.tussendoor.nl/wordpress-plugins/
  * Description: Billink integratie in WooCommerce
- * Version: 1.1.5
+ * Version: 1.1.6
  * Author: Tussendoor internet & marketing
  * Author URI: http://www.tussendoor.nl
  * Requires at least: 3.0
