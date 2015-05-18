@@ -1,13 +1,13 @@
 <?php
-/**
- * Plugin Name: WooCommerce Billink
- * Plugin URI: http://www.tussendoor.nl/wordpress-plugins/
- * Description: Billink integratie in WooCommerce
- * Version: 1.1.6
- * Author: Tussendoor internet & marketing
- * Author URI: http://www.tussendoor.nl
- * Requires at least: 3.0
- * Tested up to: 3.9
+/*
+ 	Plugin Name: WooCommerce Billink
+ 	Plugin URI: http://www.tussendoor.nl/wordpress-plugins/
+ 	Description: Billink integratie in WooCommerce
+ 	Version: 1.1.6
+ 	Author: Tussendoor internet & marketing
+ 	Author URI: http://www.tussendoor.nl
+ 	Requires at least: 3.0
+ 	Tested up to: 4.2
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
