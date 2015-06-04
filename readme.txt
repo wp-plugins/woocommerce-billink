@@ -1,5 +1,5 @@
 === WooCommerce Billink plugin ===
-Contributors: Tussendoor internet & marketing 
+Contributors: Tussendoor
 Tags: tussendoor, billink, woocommerce, gateway
 Requires at least: 3.0
 Tested up to: 3.9
