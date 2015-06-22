@@ -3,7 +3,7 @@ Contributors: Tussendoor
 Tags: tussendoor, billink, woocommerce, gateway
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 1.1.7
+Stable tag: 1.1.8
 
 == Description ==
 
@@ -15,6 +15,9 @@ Meer informatie via: [klik hier](http://www.tussendoor.nl/wordpress-plugins/wefa
 More info: [click here](http://www.tussendoor.nl/wordpress-plugins/wefact-wordpress-plugin)
 
 == Changelog ==
+
+= 1.1.7 =
+*	Added translation for Chamber of Commerce
 
 = 1.1.7 =
 *	Not displaying errors fixed

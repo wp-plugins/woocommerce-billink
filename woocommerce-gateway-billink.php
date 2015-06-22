@@ -3,7 +3,7 @@
  	Plugin Name: WooCommerce Billink
  	Plugin URI: http://www.tussendoor.nl/wordpress-plugins/
  	Description: Billink integratie in WooCommerce
- 	Version: 1.1.7
+ 	Version: 1.1.8
  	Author: Tussendoor internet & marketing
  	Author URI: http://www.tussendoor.nl
  	Requires at least: 3.0
@@ -79,7 +79,7 @@ class WooCommerce_Gateway_Billink {
 	public function wc_billink_fields( $fields ) {
 		$coc 	= array( 'billing_chamber_of_commerce' =>
 			array(
-				'label' => __('Chamber of Commerce', 'woocommerce-billink'),
+				'label' => __('Chamber of Commerce', 'woocommerce-gateway-billink'),
 				'required' => 0,
 				'class' => array(
 					'input-text'
