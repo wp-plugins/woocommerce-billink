@@ -9,10 +9,10 @@ Stable tag: 1.1.8
 
 
 = Nederlands / Dutch =
-Meer informatie via: [klik hier](http://www.tussendoor.nl/wordpress-plugins/wefact-wordpress-plugin)
+Meer informatie via: [klik hier](http://www.tussendoor.nl/wordpress-plugins/wordpress-woocommerce-billink-plugin/)
 
 = Engels / English =
-More info: [click here](http://www.tussendoor.nl/wordpress-plugins/wefact-wordpress-plugin)
+More info: [click here](http://www.tussendoor.nl/wordpress-plugins/wordpress-woocommerce-billink-plugin/)
 
 == Changelog ==
 
